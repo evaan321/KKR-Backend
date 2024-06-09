@@ -30,7 +30,7 @@ SECRET_KEY = 'django-insecure-(r19#9%u6v)gnq+o4e(2!nss14ul@4=xm6(!4y2^l!56ozgxki
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
-
+CSRF_TRUSTED_ORIGINS = ['https://kkr-backend.onrender.com','https://*.127.0.0.1']
 
 # Application definition
 
